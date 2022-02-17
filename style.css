@@ -139,3 +139,32 @@ header .logo{
   text-decoration: none;
   color: black;
 }
+footer{
+  height: 19vh;
+  border-radius: 10px;
+  width: 90vw;
+  background: #FFFCEC;
+  position: relative;
+  margin: 20px;
+}
+footer div{
+  display: flex;
+    justify-content: space-around;
+
+  align-items: center;
+  width: 90vw;
+  height: 10vh;
+}
+footer div img{
+  width: 70px;
+}
+.f-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+}
+footer .f-img img{
+  width: 40px;
+  padding: 10px;
+}
