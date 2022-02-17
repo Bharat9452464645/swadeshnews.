@@ -1,0 +1,141 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  width: 100vw;
+  position: fixed;
+  border-top: 1px solid #E1E1E1;
+   padding: 5%;
+      border-bottom: 1px solid #DDDDDD;
+      height: 5vh;
+        transition: all .2s linear;
+        background: white;
+z-index: 1000;
+}
+header h3{
+  
+  position: absolute;
+  left: 29vw;
+  font-size: 20px;
+  color: #6D28D9;
+  background: white;
+}
+header img{
+  background: white;
+  width: 2vh;
+  padding: 2%;
+  border: 1px solid #DDDDDD;
+  border-radius:2px;
+cursor: pointer;
+  position: fixed;
+  left: 85%; top: 3%;
+  background: whitesmoke;
+}
+.nav{
+    margin-top: 19px;
+background: white;
+  position: relative;
+  top: -50vh;
+  padding-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  transition: all .2s linear;
+  align-items: center;
+}
+header .logo{
+  z-index: 100000;
+  position: absolute; 
+  top: 5%; left: 27%;
+  width: 35vw;
+  background: #FFFFFF;
+  border: none;
+}
+.nav-items{
+  text-decoration: none;
+  color: black;
+    padding: 8px;
+    margin-left:-5vw; 
+    cursor:  none;
+    transition: all .4s linear;
+}
+.nav-items:hover{
+  padding-left: 30px;
+  color: #48C5FF;
+}
+.btn-contenet{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24vw;
+  
+}
+
+.nav-btn{
+  line-height: 2;
+  width: 15vw;
+  padding: 1%;
+  border: 1px solid black;
+  margin: 5px;
+  font-size: 13px;
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+  background: #6D28D9;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  left: 37vw;top: 25vh;
+}
+.wellcome{
+  padding-top: 30%;
+}
+.body  .wellcome h3{
+  font-weight: 400;
+  padding: 5% 10%;
+  text-align: center;
+  font-size: 30px;
+}
+.wellcome h3 span{
+  color: #6D28D9;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.wellcome p{
+  text-align: center;
+  padding: 1% 20%;
+  color: #757575;
+}
+
+.btn-about{
+  line-height: 1.8;
+  width: 25vw;
+  padding: 1%;
+  border: 1px solid black;
+  margin: 2%;
+  font-size: 13px;
+  color: black;
+  border-radius: 5px;
+  color: whitesmoke;
+  text-align: center;
+  background: #1D1D1D;
+  text-decoration: none;
+  color: white;
+}
+.btn-contact{
+  line-height: 1.8;
+  width: 25vw;
+  padding: 1%;
+  border: 1px solid black;
+  margin: 2%;
+  font-size: 13px;
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+  background: #D1D4DB;
+  
+  text-decoration: none;
+  color: black;
+}
